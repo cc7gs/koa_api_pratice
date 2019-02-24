@@ -1,0 +1,29 @@
+{
+  "name": "koa2_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-ejs": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.15",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "koa-passport": "^4.1.1",
+    "nodemon": "^1.18.10",
+    "passport-jwt": "^4.0.0"
+  }
+}
